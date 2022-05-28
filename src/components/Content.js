@@ -5,7 +5,7 @@ import { ReactComponent as Left } from '../img/left.svg'
 
 const Content = () => {
   return (
-    <div className='bg-discord_blue md:mb-[8px] '>
+    <div className='bg-discord_blue md:mb-[8px] overflow-hidden '>
       <div className='px-6 py-14 h-screen md:px-10 md:py-20 md:flex relative 	'>
         <div className='text-white flex flex-col w-full lg:justify-center lg:items-center '>
           <h1 className='text-2xl md:text-[56px] md:leading-none font-[900] '>IMAGINE A PLACE...</h1>
@@ -23,7 +23,7 @@ const Content = () => {
       </div>
 
       <div>
-        <Right className='hidden md:inline absolute bottom-0 -right-36 '/>
+        <Right className='hidden md:inline absolute -bottom-3 -right-36 '/>
         <Left className='absolute -bottom-3 -ml-20 md:hidden lg:inline lg:-left-80 '/>
       </div>
     </div>
